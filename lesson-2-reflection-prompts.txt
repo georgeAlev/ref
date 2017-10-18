@@ -21,15 +21,15 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-	- Experiment with a stable version of your dode
-	- Develop a series of features with minor importance to merge later
-	- Develop different versions (language and/or features) of the same app
-	- Develop an expansion of the major app
+	- Experiment with a stable version of your dode.
+	- Develop a series of features with minor importance to merge later.
+	- Develop different versions (language and/or features) of the same app.
+	- Develop an expansion of the major app.
 
 How do the diagrams help you visualize the branch structure?
 	
 	Diagramms help me visualize the branch structure in my current repository
-	by showing all the relations between commits
+	by showing all the relations between commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
@@ -42,3 +42,14 @@ the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Auto-merge
+	
+	+ You don't have to inspect and compare the code each time. Very helpfull if 
+	  a lot of changes have been made.
+	- The results maybe are not wanted.
+	
+Always Manual Merge
+	+ Have full control over all the changes and thus you are sure that the result 
+	  of the merge is the wanted one.
+	- Do all the job manually even if the merge is a simple one with no conflicts. 

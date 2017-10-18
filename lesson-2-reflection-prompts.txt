@@ -1,22 +1,21 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 	When I initialize a repositoty the hidden directory .git shows up 
-	and i get informed about it. At first non of the files include in 
+	and i get informed about it. At first non of the files included in 
 	the directory are committed. I need to init a repository to start
-	using git.
+	using git and manage versions of my projects.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 	Staging area is a middle area between the working directory and the repository.
-	The reason I'll use it is to keep all the necessary files for the next commit.
+	I'll use it is to keep all the necessary files for the next commit in 
+	a safe place and procedure other files till I know that a logical change has taken place.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-	To make sure I have one commit per logical change I can add one file per time in 
-	my staging area. Also to validate this, I can use git diff --staged to see the 
-	differences between the repository and the staging area.
+	I can use git diff --staged to inspect the differences between the repository and the staging area.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
@@ -25,6 +24,7 @@ organized? How would branches help?
 	- Develop a series of features with minor importance to merge later.
 	- Develop different versions (language and/or features) of the same app.
 	- Develop an expansion of the major app.
+	- Work in collaboration with other collagues.
 
 How do the diagrams help you visualize the branch structure?
 	
@@ -43,13 +43,12 @@ the diagram the way we do?
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
-Auto-merge
-	
+	Auto-merge
 	+ You don't have to inspect and compare the code each time. Very helpfull if 
 	  a lot of changes have been made.
-	- The results maybe are not wanted.
+	- The result is not the wanted one.
 	
-Always Manual Merge
-	+ Have full control over all the changes and thus you are sure that the result 
+	Always Manual Merge
+	+ Have full control over all the changes. Thus you are sure the result 
 	  of the merge is the wanted one.
 	- Do all the job manually even if the merge is a simple one with no conflicts. 

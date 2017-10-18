@@ -2,9 +2,9 @@ How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
     diff was very helpfull because compared the files for me. Then presented me 
-	only the key differences between them. So, while in the old version were 
-	using the up button, in the new version we used the button spracr which 
-	seemed a little odd and then I just realized it was a typo.
+	only the key differences between them. On one hand the old version used 
+	the up button and on the other hand the new version used the button spracr which 
+	seemed a little odd. Then I just realized it was a typo.
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
@@ -12,11 +12,11 @@ efficient programmer in the long term?
 		I think that access to the entire history of a file helps you track down 
 	all the changes taking place through out the process of development. 
 	Following an idea that doesn't lead to the wanted behavior in your code 
-	can be reversed by simply choosing an old solid version in one command step
+	can be reversed by simply choosing an old solid version using the appropriate command
 	(no need to undo manually all the last changes to get back there). That 
-	makes me think of me in the long term as a more flexible developer that can:
-		1) change directions till I find the right way in my code
-		2) be prone to test with my code
+	makes me think of me as a more flexible developer, in the long term, that can:
+ 		1) change directions till I find the right path for code that runs
+		2) be prone to expreriment with my code
 		3) have no fear in losing my project's stability
 		4) compare old and new versions of my project
 
@@ -26,20 +26,20 @@ docs does?
 
 	Manual commit:
     + You commit when a logical change takes place, so you are sure that there 
-	  is some kind of substantive difference not just some few more lines of code.
+	  is some kind of substantive difference, not just some few more lines of code.
 	+ Use critical thinking on when to commit. That's good for thinking in general
 	  but most important helps you stay focused on meeting and commiting a specific target. 
 	- You may misjudge when is the right time to commit because you may 
 	  misinterpret the 'commit per logical change' rule and end up with many small commits.
 	
 	Auto save:
-	+ No way you loosing any piece of job
+	+ No way you loose any piece of job.
 	+ Never think and worry about saving your current work. It is conviniently saved for you.
 	- Auto save policies like regular time intervals, large changes or pause 
 	  while editing may not capture real improvements or features' development.
 	- Highly possible to end up with many old versions that have little differences
-	  and mainly are the same (no new features). So, it is difficult to choose which
-	  old version to restore.
+	  and mainly are the same (no new features). So, it is difficult to manage them (choose which
+	  old version to restore).
 	  
 
 Why do you think some version control systems, like Git, allow saving multiple
@@ -47,7 +47,7 @@ files in one commit, while others, like Google Docs, treat each file separately?
 
 		Git and other similar version control systems save multiple files in one commit 
 	because in many programming projects a banch files are logicaly connected. So changes
-	in one file may lead to changes in  another or more interconnected file(s). So we need to
+	in one file may lead to changes in one or more interconnected file(s). So we need to
 	to save it(them) too.
 		Other systems like Google Docs don't aim for programming projects and may treat their 
 	files as separate in concern of ease.
@@ -55,7 +55,7 @@ files in one commit, while others, like Google Docs, treat each file separately?
 How can you use the commands git log and git diff to view the history of files?
 
 		I can use git log to view the entire versions' history of my files, and git log --stat
-	for some more details such us number of lines that changed (ins/del) after the previous
+	for some more details such us number of lines that changed (ins/del) in comparison with the previous
 	commit. git log is like ls for versions :)
 		On the other hand I can use git diff to compare two different versions and get inforamtion
 	about their inserted or deleted lines.
@@ -64,13 +64,13 @@ How can you use the commands git log and git diff to view the history of files?
 How might using version control make you more confident to make changes that
 could break something?
 
-    Using version control makes me feel more confident to make changes in 'fragile' parts
+    Using version control makes me feel more confident in making changes in 'fragile' parts
 	because with a right commit I always have a solid version of code to switch to.
 	
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    I think i would like to keep on learning and using github in order to manage my code more
+    I think I would like to keep on learning and using Git in order to manage my code more
 	efficiently. With Git I may never worry about comparing manually my files when processing 
 	different versions of files in my projects. As a matter of fact maybe this gives me the chance 
-	to improve some exisiting progects without fearing of loosing the stability of my code.
+	to improve some exisiting projects without fearing of loosing the stability of my code.
 	

@@ -29,17 +29,29 @@ What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
     Having a copy of the last known remote state stored locally is beneficial. This way you can:
-		- Keep track of the project development. Be in sync with the work of your collegues (maybe different branches) 
-		- Collaborate remotely with other people by working together on the development of the same branch (ex. a feature)
+		- Keep track of the project development. Be in sync with the work of your collegues (maybe different branches).
+		- Collaborate remotely with other people by working together on the development of the same branch (ex. a feature).
 		  through a succession of pulls, local developments and pushes.
-		- Get/Give help to other co-workers
+		- Get/Give help to other co-workers.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Collaborating with Git of GitHub has many benefits.
+		- It is easy to keep keep track of different versions rather than undoing changes.
+		- It is easy to collaborate with more than one co-workers on a file simultaneously or on a banch of different files.
+		- Saves a lot of time from messaging, mailing or phone calling in order to explain what you changed.
+		- Makes merging possible, safer and time efficient (not a time devouring scrapy copy paste task).
+		- Protection and tracking of actions among a big team of people.
+	
+	Also makes some things harder.
+		- It is hard (at firt I hope) to grasp and cope with the mechanisms of Git.
+		- It is quite sophisticated for a beginner and requires time and practice (but no pain no gain).
+		- It is difficult for an intermediate to master it. So on a daily basis a user may finds it self spending some times
+		  in forums or in man pages of Git rather than focusing on his work (but again nothing is for free)
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I would want to make changes in a separate branch when working with other co-workers rather than working on the branch.
+	Also when experimenting or adding a new feature locally I would create an other branch.
